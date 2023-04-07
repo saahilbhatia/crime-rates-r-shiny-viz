@@ -21,7 +21,6 @@ Significant data wrangling which included cleaning, merging datasets, data aggre
 8. Exploratory_Tab_Data.csv
 
 ## R Packages required
-# Loading required packages
 * ggplot2
 * shiny
 * ggvis
