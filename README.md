@@ -1,4 +1,5 @@
 # crime-rates-r-shiny-viz
+## Description
 A narrative visualisation of crime trends in NSW using R Shiny. Please see the documentation PDF file for the user guide of the R Shiny application.
 
 The raw data sources used for the project were:
@@ -18,3 +19,17 @@ Significant data wrangling which included cleaning, merging datasets, data aggre
 6. Offence Rates.csv
 7. NSW_LGA_POLYGON_shp (LGAs shapefile)
 8. Exploratory_Tab_Data.csv
+
+## R Packages required
+# Loading required packages
+* ggplot2
+* shiny
+* ggvis
+* mapview
+* leaflet
+* leafpop
+* rgdal
+* RColorBrewer
+* scales
+* sf
+* terra
