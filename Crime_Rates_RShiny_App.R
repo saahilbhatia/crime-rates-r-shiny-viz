@@ -8,7 +8,7 @@ library(leafpop)
 library(rgdal)
 library(RColorBrewer)
 library(scales)
-# sf and terra dependencies
+# sf and terra package dependencies
 
 # Loading data files
 nsw.rate <- read.csv('Annual Crime Rate in NSW.csv')
@@ -310,7 +310,5 @@ server <- function(input, output, session) {
         #geom_smooth(color = "blue")
     })
 }
-
-
 
 shinyApp(ui, server)
